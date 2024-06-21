@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    margin-top: 30px;
+    width: 350px;
+    box-shadow: 0 0 10px rgb(8, 200, 200);
+    padding: 30px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 80%;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    height: 30px;
+    background: linear-gradient(90deg, rgb(0, 20, 152), rgb(0, 184, 18));
+    border: 0px;
+    outline-color: 10px solid darkcyan;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    background: linear-gradient(90deg,  rgb(0, 20, 152), rgb(0, 184, 18 ));
+    border: 0px;
+    border-radius: 5px;
+    width: 87%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+.tacheNombre, .tacheCelular, .tacheCorreo{
+    color: brown;
+}
+.input-tache{
+    background-color: blanchedalmond;
+    border: 2px solid brown;
+}
+.buenaNombre, .buenaCelular, .buenaCorreo{
+    color: brown;
+}
+.input-buena{
+    background-color: greenyellow;
+    border: 2px greenyellow;
+}
+.mensajeNombre, .mensajeCelular, .mensajeCorreo{
+    font-size: small;
+    color: brown;
+}
+.ocultar{
+    display: none;
+}
